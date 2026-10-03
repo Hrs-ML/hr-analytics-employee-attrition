@@ -72,7 +72,7 @@ Two classification models were evaluated:
 
 | Model | F1-Score | ROC-AUC |
 |---|---:|---:|
-| Logistic Regression | — | — |
+| Logistic Regression | **0.4248** | ** 0.7829** |
 | Random Forest | **0.9893** | **0.9987** |
 
 Random Forest achieved the higher performance on the test set.
