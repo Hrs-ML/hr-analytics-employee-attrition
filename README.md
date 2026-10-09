@@ -84,13 +84,3 @@ Random Forest achieved the higher performance on the test set.
 SHAP was also used to explain the model's global feature importance and individual predictions.
 
 ---
-
-## 📌 Project Status
-
-- ✅ Data cleaning & preprocessing
-- ✅ Exploratory Data Analysis
-- ✅ Machine Learning
-- ✅ SHAP Explainability
-- ✅ 2-page Power BI Dashboard
-- 🔄 Third dashboard page
-- 🔄 Final project report
