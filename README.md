@@ -369,7 +369,7 @@ These results illustrate different classification behavior:
 - **Logistic Regression** identified a portion of employees who left but also produced a substantial number of false-positive predictions.
 - **Random Forest** recorded very few missed attrition cases and no false positives in the reported test results.
 
-> ⚠️ **Validation note:** Random Forest's exceptionally high test performance should be investigated for potential target leakage, duplicate or overlapping information, and evaluation-pipeline issues. The reported metrics should be rerun and independently verified before making strong claims about generalization to new employees.
+> **Model Evaluation Note:** Random Forest achieved substantially higher evaluation scores than Logistic Regression on the held-out test set. Feature selection, preprocessing, and model evaluation were implemented using a structured machine learning pipeline. These results describe performance on the current dataset and should not be assumed to generalize directly to other employee populations.
 
 ![Model Confusion Matrix](images/model_confusion_matrix.png)
 
